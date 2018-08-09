@@ -1,0 +1,122 @@
+* { padding: 0; margin: 0; }
+body,html{
+    background: #fff;
+}
+.wrap { width: 99%; margin: 10px; }
+table { border-collapse: collapse; border-spacing: 0; border: 1px solid #c0c0c0; width:100%; }
+th, td { border: 1px solid #d0d0d0; color: #404060; padding: 10px; }
+th {
+    background-color: #f1f1f1; font: bold 12px "微软雅黑"; color: #333;
+    font-size: 14px;
+}
+td {
+    font: 12px "微软雅黑";
+    text-align: center;
+}
+tbody tr { background-color: #fff; }
+tbody tr:hover { cursor: pointer; background-color: #f8fbfe; }
+.qx label{
+    font-size: 14px;
+    color: #333;
+}
+.qx{
+    margin-left: 38px;
+}
+.container .top{
+    width: 100%;
+    height: 40px;
+    background: #fff;
+    border-bottom: 1px solid #ddd;
+}
+.container .top .title{
+    font-size: 16px;
+    color: #333;
+}
+.top .zxwdBox{
+    float: left;
+    margin-left: 20px;
+}
+.top .zxwdBox .jiantou{
+    font-size: 20px;
+    font-weight: 700;
+}
+.container .top ul{
+    float: left;
+    margin-left: 30px;
+}
+.container .top ul li{
+    float: left;
+}
+.container .top ul li a{
+    padding: 0 10px;
+    border-right: 1px solid #ddd;
+}
+.container .top a{
+    color:#666;
+    font-size: 14px;
+    line-height: 40px;
+}
+.container .top ul li a:hover{
+    color:#6fa6f8;
+}
+.sousuoBox{
+    float: right;
+    margin-right: 60px;
+}
+.sousuoBox a{
+    color:#fff !important;
+    background: #459cee;
+    padding: 4px;
+}
+.sousuoBox input{
+    width: 130px;
+    height: 26px;
+    border-radius: 4px;
+    border: none;
+    border: 1px solid #ddd;
+    line-height: 26px;
+}
+.sousuoBox .ssImg{
+    position: absolute;
+    right: 130px;
+    top: 13px;
+}
+.sousuoBox .ssImg:hover{
+    cursor: pointer;
+}
+.sousuoBox .gjss{
+    font-size: 12px !important;
+    border-radius: 4px;
+}
+.container .topNav{
+    width: 100%;
+    height:40px;
+    background: #fff;
+    border-bottom: 1px solid #ddd;
+}
+.container .topNav ul{
+    margin-left: 10px;
+}
+.container .topNav ul li{
+    float: left;
+}
+.container .topNav ul li a{
+    color: #666;
+    font-size: 14px;
+    display: inline-block;
+    padding: 9px 20px 5px 20px;
+}
+.container .topNav ul li img,.container .topNav ul li span{
+    float: left;
+}
+.container .topNav ul li span{
+    margin-left: 4px;
+    font-size: 14px;
+}
+.container .topNav ul li .marginTop{
+    margin-top: 2px;
+}
+.container .topNav ul li:hover{
+    border-top:2px solid #6fa6f8;
+    background: #efefef;
+}
